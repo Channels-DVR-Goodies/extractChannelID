@@ -33,7 +33,7 @@ If you don't use 'Custom Channels' as a source for your Channels DVR, you don't.
 
 If you do, I'll be writing another tool that post-processes a 'Custom Channels' M3U file obtained
 elsewhere to insert the Channels DVR-specific `tvc-guide-stationid` tag. This means that Channels
-DVR can  associate the M3U playlist channel with a `tvc-guide-stationid` tag automatically with
+DVR can associate an M3U playlist channel which has a `tvc-guide-stationid` tag automatically with
 the correct Gracenote Guide data.
 
 This tool is separate from the tag-insertion tool, as I expect people will want to run the latter
