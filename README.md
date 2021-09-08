@@ -9,22 +9,22 @@ is for their own use, and there are no guarantees that it will remain unchanged.
 
 ## What Does This Do?
 
-**extractChannelID** is a tool to generate a tab-separated file of channel names and the associated
+**extractChannelIDs** is a tool to generate a tab-separated file of channel names and the associated
 GraceNote Channel ID. It does this by pulling the 'On Now' listing from the Channels DVR using
-the private API, then parses the JSON information that is returned to extractmost of  the
-information it contains about each channel.
+the private API, then parses the JSON information that is returned to extract most of the
+information about each channel.
 
 Each line of the output file contatins:<br>
 ```
-<channel name>\t<channel number>\t<channel id>\t<callsign>\n
+<channel name>(tab)<channel number>(tab)<channel id>(tab)<callsign>(newline)
 ```
 
-for example, the line output for one of my local stations is:
+for example, the line that is output for one of my local stations is:
 
 ```
 PBS     54.1    44690   KQEHDT
 ```
-Note that the file it creates lists all your channels in the guide, whatever the source - HDHomeRun,
+Note that the file created lists all your channels in the guide, whatever the source - HDHomeRun,
 TVEverywhere, Custom Channels, etc.
 
 ## Why Do I Need This?
