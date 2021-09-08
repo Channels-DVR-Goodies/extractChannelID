@@ -14,8 +14,10 @@ GraceNote Channel ID. It does this by pulling the 'On Now' listing from the Chan
 the private API, then parses the JSON information that is returned to extractmost of  the
 information it contains about each channel.
 
-Each line of the output file contatins:
-<channel name>\t<channel number>\t<channel ID>\t<callsign>\n
+Each line of the output file contatins:<br>
+```
+<channel name>\t<channel number>\t<channel id>\t<callsign>\n
+```
 
 for example, the line output for one of my local stations is:
 
