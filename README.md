@@ -48,6 +48,6 @@ Thanks to the good folk at Fancy Bits LLC for providing great DVR software, and 
 of information even about private APIs.<br>
 https://getchannels.com/dvr-server/
 
-Also thanks to dave Gamble for creating the open source cJSON library, without which this would have
+Thanks also to Dave Gamble for creating the open source cJSON library, without which this would have
 been a lot more tedious to write.<br>
 https://github.com/DaveGamble/cJSON
